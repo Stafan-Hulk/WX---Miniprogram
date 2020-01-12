@@ -1,0 +1,13 @@
+.page-section {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding: 10rpx;
+  margin-top: 4%;
+}
+
+.page-section image {
+  width: 100%;
+}

@@ -1,0 +1,11 @@
+<view class="container">
+  <block wx:for="{{dataList}}" wx:key="index">
+    <view class="page-section">
+      <view class="delete" bindtap="deleteImg" data-id="{{item._id}}" data-imgUrl="{{item.imgUrl}}"></view>
+      <text class="item-name">上传者：{{item.name}}</text>
+      <text class="item-name">上传时间： {{item.time}}</text>
+      <image class="img" src="{{item.imgUrl}}"></image>
+    </view>
+  </block>
+  <image class="public" bindtap="public" src="/images/fabu.png"></image>
+</view>
